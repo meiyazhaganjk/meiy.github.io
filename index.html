@@ -1,66 +1,323 @@
 <!DOCTYPE html>
-<html>
-<!-- -->
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="UTF-8">
-	<meta name="description" content="meiy">
-	<!--I don't know what eactly this meta name thing is.-->
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
 	<title>Meiyazhagan J</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<!--link rel="shortcut icon" href="favicon.png" -->
+
 </head>
-<!-- -->
+
 <body>
-	<header>
-		<h1>Meiyazhagan J</h1>
-		<nav>
-			<ul class="nav">
-				<li><a href = "index.html">Home</a></li>
-				<li><a href = "publications.html">Publications</a></li>
-				<li><a href = "contact.html">Contact etc</a></li>
-				<li><a href = "useful_links.html">Useful links</a></li>
-			</ul>
-		</nav>
-		<link href="css/main.css" rel="stylesheet">
-	</header>
-	<!-- -->
-	<main>
-		<table>
-			<tr>
-				<td>
-					<img src="MyImages/meiy.jpg" alt="meiy's photo" width="200">
-				</td>
-				<td>
-					<h3>About me:</h3>
-					<p>I am a PhD scholar in the Department of Nonlinear Dynamics at Bharathidasan University, Tiruchirappalli, India.</p>
-					<h3>Research interests:</h3>
-					<p>Nonlinear Dynamics</p>
-					<p>Machine Learning</p>
-					<p>Deep Learning</p>
-				</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>
-					<h3>Education:</h3>
-					<ul>
-						<li>2021–Present: PhD in Physics, Bharathidasan University, Tiruchirappalli, India.<br/>Advisor: Prof M. Senthilvelan</li>
-						<li>2018–2020: MSc in Physics, Bharathidasan University, Tiruchirappalli, India.</li>
-						<li>2015–2018: BSc in Physics, Gobi Arts & Science College, Tamilnadu, India.</li>
-					</ul>
-					
-				</td>
-			</tr>
-		</table>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	</main>
-	<!-- <footer>
-	</footer> -->
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Education</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Publications</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Meiyazhagan</h1>
+            <h3>Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+              
+               
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/MEIY.jpeg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p> I am a PhD scholar in the Department of Nonlinear Dynamics at Bharathidasan University, Tiruchirappalli, India. 
+            Doing research in the field of Machine Learning and Nonlinear Dynamics. 
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Address</h2>
+                  <p class="address">
+						   <span>Meiyazhagan J</span><br>
+						   <span>Depatment of Nonlinear Dyanmics<br>
+						         Bharathidasan University<br>
+						         Tiruchirappalli <br>
+						         India - 620 024
+                     </span><br>
+						   
+                     <a href="mailto:meiyazhaganjk@gmail.com">meiyazhaganjk@gmail.com</a>
+					   </p>
+
+               </div>
+
+               <!--div class="columns download"-->
+                  <!--p-->
+                     <!--a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a-->
+                  <!--/p-->
+               <!--/div-->
+
+            <!--/div--> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Ph.D in Physics (2021-Present)</h3>
+                  <p class="info">Bharathidasan University, Tiruchirappalli, India. </p>
+
+                  <p>
+                  Research Supervisor: <br>
+                  Dr. M. Senthilvelan <br>
+                  Professor and Head <br>
+                  Department of Nonlinear Dynamics <br>
+                  
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>M.Sc in Physics (2018–2020)</h3>
+                   <p class="info">Bharathidasan University, Tiruchirappalli, India. </p>
+
+               </div>
+
+            </div> <!-- item end -->
+            
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>B.Sc in Physics (2015–2018)</h3>
+                   <p class="info">Bharathiar University, Coimbatore, India. </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+   </section> <!-- Resume Section End-->
+   
+   
+   
+   <!-- Resume Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h3>PUBLICATOINS</h3>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  
+		<ol reversed>
+			<li>
+			<b>Prediction of Occurrence of Extreme Events using Machine Learning</b><br>
+			J Meiyazhagan, S Sudharsan, A Venkatasen, M Senthilvelan<br>
+			arXiv preprint arXiv:2110.09304<br>
+			DOI: <a href="https://arxiv.org/abs/2110.09304" target="_blank">https://arxiv.org/abs/2110.09304</a>
+			</li>
+			<li>
+			<b>Model-free prediction of emergence of extreme events in a parametrically driven nonlinear dynamical system by deep learning</b><br>
+			J Meiyazhagan, S Sudharsan, M Senthilvelan<br>
+			 Eur. Phys. J. B 94, 156 (2021)<br>
+			DOI: <a href="https://doi.org/10.1140/epjb/s10051-021-00167-y" target="_blank">https://doi.org/10.1140/epjb/s10051-021-00167-y</a>
+			</li>
+		</ol>
+
+               </div>
+
+           
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- contact Section
+   ================================================== -->
+   <section id="contact">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row contact">
+
+         
+
+         <div class="nine columns main-col">
+
+            
+
+            <div class="row item">
+
+               <div class="nine columns main-col">
+
+            <h2>Contact details and other things:</h2>
+                   <p>You can check out bits of code and notes I put up on GitHub <a href="https://github.com/meiyazhaganjk" target="_blank">here</a>.</p>
+			
+		<p>I am <a href="https://www.linkedin.com/in/meiyjk/" target="_blank">@meiyjk</a> on LinkedIn.</p>
+			
+		<p>And, you can email me at <a href="mailto:meiyazhaganjk@gmail.com">meiyazhaganjk@gmail.com</a>.</p>
+
+               </div>
+
+            </div> <!-- item end -->
+            
+            
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End contact -->
+
+
+   </section> <!-- contact Section End-->
+
+
+ 
+
+
+  
+
+   
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
